@@ -81,6 +81,14 @@ body { font-family: var(--sans); background: var(--cream); color: var(--text); }
 	color: rgba(245,240,232,0.75);
 	font-weight: 300;
 }
+.contact-item a {
+	color: inherit;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+.contact-item a:hover {
+	color: var(--gold2);
+}
 .contact-dot {
 	width: 5px; height: 5px;
 	background: var(--gold);
